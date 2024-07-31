@@ -12,7 +12,9 @@ def create_usuario(data: dict) -> Usuario:
     """
     usuario = Usuario(**data)
     self.repository.save(usuario)
-    return usuario 
+    return usuario
+```
+
 
 ## Comentarios
 Los comentarios claros y concisos ayudan a entender la intención detrás del código.
